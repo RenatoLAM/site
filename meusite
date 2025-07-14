@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja Dropshipping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Minha Loja</h1>
+    <nav>
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Produtos Incríveis Direto da Fábrica</h2>
+    <p>Frete Grátis para todo o Brasil!</p>
+  </section>
+
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="grid-produtos">
+      <div class="produto">
+        <img src="https://via.placeholder.com/200" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <p>R$ 99,90</p>
+        <button onclick="comprar('Produto 1')">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>R$ 149,90</p>
+        <button onclick="comprar('Produto 2')">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma loja especializada em trazer os melhores produtos internacionais diretamente para sua casa com segurança e garantia!</p>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Minha Loja. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Minha Loja Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>A Minha Loja</h1>
+    <nav>
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Produtos fantásticos diretamente do fornecedor</h2>
+    <p>Envio grátis para todo o país!</p>
+  </section>
+
+  <section id="produtos">
+    <h2>Os Nossos Produtos</h2>
+    <div class="grid-produtos">
+      <div class="produto">
+        <img src="https://via.placeholder.com/200" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <p>€ 24,90</p>
+        <button onclick="comprar('Produto 1')">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>€ 39,90</p>
+        <button onclick="comprar('Produto 2')">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma loja online dedicada a oferecer os melhores produtos internacionais, com qualidade garantida e entrega rápida em Portugal.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="O seu nome" required>
+      <input type="email" placeholder="O seu email" required>
+      <textarea placeholder="A sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 A Minha Loja. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  background: #e3e3e3;
+  padding: 2em;
+  text-align: center;
+}
+
+section {
+  padding: 2em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2em;
+}
+
+.produto {
+  background: white;
+  padding: 1em;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+}
+
+.produto button {
+  background: #28a745;
+  color: white;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.produto button:hover {
+  background: #218838;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+form input, form textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 150px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.7em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+function comprar(produto) {
+  alert(`Adicionou "${produto}" ao carrinho!`);
+}
